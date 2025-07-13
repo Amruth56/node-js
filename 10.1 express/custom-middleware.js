@@ -11,7 +11,7 @@ const requestTimestampLogger = (req, res, next)=>{
 app.use(requestTimestampLogger);
 
 
-app.get('/', (req, res)=>{
+app.get('/', (req, res)=>{ 
     res.send("Hello from home page")
 });
 
@@ -22,3 +22,4 @@ app.get('/about', (req, res)=>{
 app.listen(1234, ()=>{
     console.log("server is running on port 1234")
 })   
+
