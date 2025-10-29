@@ -1,3 +1,0 @@
-callback logic concepts 
-
-callback are functions that are passed as callbacks into other functions  
