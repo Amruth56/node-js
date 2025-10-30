@@ -1,0 +1,5 @@
+callback logic concepts 
+
+
+
+they are functions passed as arguments to other functions 
